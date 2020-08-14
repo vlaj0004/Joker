@@ -1,0 +1,69 @@
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+*{background-color: #be80ff;}
+
+header{
+    color: #1ddd33;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.subHead,
+.subHeadR{
+    color: #1ddd33;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.block{
+    margin-top: 5rem;
+}
+
+.description,
+.descriptionR{
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+.descriptionR,
+.subHeadR,
+.source{
+    text-align: right;
+}
+
+.source{
+    align-content: right;
+    margin-left: 80%;
+}
+
+a{
+    color: #c5c5c5;
+    font-size: 1.25rem;
+}
+
+.imgL{
+    border: 8px solid;
+    border-color: #1ddd33 #1da11f #1da11f #1ddd33;
+    margin-right: 20px;
+    clear: left;
+    float: left;
+}
+
+.imgR{
+    border: 8px solid;
+    border-color: #1ddd33 #1da11f #1da11f #1ddd33;
+    margin-left: 20px;
+    /* clear: right; */
+    float: right;
+}
+
+.background{
+    background-image: url(../img/joker_2.jpeg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
